@@ -1,4 +1,5 @@
-**Challenge Drone Delivery Service**
+**Drone Delivery Service**
+
 **Wesley Maicon Ferreira da Silva**
 
 **Proposed Solution**
@@ -18,24 +19,35 @@ trip, instead of making a trip with Drone A and another with Drone B.
 **Input**
 
 \[Drone A\], \[30\], \[Drone B\], \[50\]
+
 \[Location A\], \[15\]
+
 \[Location B\], \[18\]
+
 Location C\], \[12\]
+
 \[Location D\], \[5\]
 
 **Output with ordered drones and locations (proposed solution)**
 
 **\[Drone B\]**
+
 Trip \#1
+
 \[Location B\], \[Location A\], \[Location C\], \[Location D\]
 
 **Output without ordered drones and locations (unoptimized solution)**
+
 **\[Drone A\]**
+
 Trip \#1
+
 \[Location A\], \[Location C\]
 
 **\[Drone B\]**
+
 Trip \#1
+
 \[Location B\], \[Location D\]
 
 **Assumptions**
@@ -111,22 +123,39 @@ Trip \#1
 \*\*\*BEGIN INPUT FILE \#1\*\*\*
 
 \[Drone A\], \[50\], \[Drone B\], \[60\], \[Drone C\], \[30\]
+
 \[Location A\], \[15\]
+
 \[Location B\], \[18\]
+
 \[Location C\], \[15\]
+
 \[Location D\], \[8\]
+
 \[Location E\], \[25\]
+
 \[Location F\], \[40\]
+
 \[Location G\], \[30\]
+
 \[Location H\], \[15\]
+
 \[Location I\], \[46\]
+
 \[Location J\], \[20\]
+
 \[Location K\], \[10\]
+
 \[Location L\], \[15\]
+
 \[Location M\], \[18\]
+
 \[Location N\], \[60\]
+
 \[Location O\], \[48\]
+
 \[Location P\], \[45\]
+
 \[Location Q\], \[25\]
 
 \*\*\*END INPUT FILE \#1\*\*\*
@@ -134,29 +163,39 @@ Trip \#1
 \*\*\*BEGIN OUPUT FILE \#1\*\*\*
 
 **\[Drone A\]**
+
 Trip \#1
+
 \[Location M\], \[Location H\], \[Location L\]
 
 **\[Drone B\]**
+
 Trip \#1
+
 \[Location N\]
 
 Trip \#2
+
 \[Location O\], \[Location K\]
 
 Trip \#3
+
 \[Location I\], \[Location D\]
 
 Trip \#4
+
 \[Location P\], \[Location A\]
 
 Trip \#5
+
 \[Location F\], \[Location J\]
 
 Trip \#6
+
 \[Location G\], \[Location E\]
 
 Trip \#7
+
 \[Location Q\], \[Location B\], \[Location C\]
 
 \*\*\*END OUPUT FILE \#1\*\*\*
@@ -166,17 +205,29 @@ Trip \#7
 \*\*\*BEGIN INPUT FILE \#2\*\*\*
 
 \[Drone A\], \[35\], \[Drone B\], \[60\]
+
 \[Location A\], \[15\]
+
 \[Location B\], \[18\]
+
 \[Location C\], \[15\]
+
 \[Location D\], \[8\]
+
 \[Location E\], \[25\]
+
 \[Location F\], \[40\]
+
 \[Location G\], \[30\]
+
 \[Location H\], \[15\]
+
 \[Location I\], \[46\]
+
 \[Location J\], \[20\]
+
 \[Location K\], \[10\]
+
 \[Location L\], \[15\]
 
 \*\*\*END INPUT FILE \#2\*\*\*
@@ -184,20 +235,27 @@ Trip \#7
 \*\*\*BEGIN OUTPUT FILE \#2\*\*\*
 
 **\[Drone A\]**
+
 Trip \#1
+
 \[Location H\], \[Location L\]
 
 **\[Drone B\]**
+
 Trip \#1
+
 \[Location I\], \[Location K\]
 
 Trip \#2
+
 \[Location F\], \[Location J\]
 
 Trip \#3
+
 \[Location G\], \[Location E\]
 
 Trip \#4
+
 \[Location B\], \[Location A\], \[Location C\], \[Location D\]
 
 \*\*\*END OUTPUT FILE \#2\*\*\*
